@@ -1,4 +1,4 @@
-package org.example.task1;
+package org.example.task1.book;
 
 public class Book implements Displayable{
     private String name;
@@ -31,6 +31,7 @@ public class Book implements Displayable{
 
     @Override
     public void display() {
+        System.out.println("Task1");
         System.out.println("Name: " + name);
         System.out.println("Author: " + author);
         System.out.println("Year: " + year);
