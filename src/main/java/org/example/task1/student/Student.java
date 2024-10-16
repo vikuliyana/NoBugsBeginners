@@ -31,7 +31,6 @@ public class Student implements Printable{
 
     @Override
     public void print() {
-        System.out.println("Task2");
         System.out.println("Student's name: " + studentName);
         System.out.println("Book number: " + bookNumber);
         System.out.println("Average score: " + avgScore);

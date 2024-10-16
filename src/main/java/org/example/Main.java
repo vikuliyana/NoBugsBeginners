@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.task1.book.Book;
+import org.example.task1.point.Point;
 import org.example.task1.student.Student;
 
 public class Main {
@@ -18,5 +19,14 @@ public class Main {
         student1.setBookNumber(123);
         student1.setAvgScore(4);
         student1.print();
+
+        //Task3 - Pint
+        Point point1 = new Point();
+        point1.setX(1);
+        point1.setY(2);
+        point1.moveUp();
+        point1.moveDown();
+        point1.moveLeft();
+        point1.moveRight();
     }
 }
