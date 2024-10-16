@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.task1.book.Book;
+import org.example.task1.clock.Clock;
 import org.example.task1.point.Point;
 import org.example.task1.student.Student;
 
@@ -20,7 +21,7 @@ public class Main {
         student1.setAvgScore(4);
         student1.print();
 
-        //Task3 - Pint
+        //Task3 - Point
         Point point1 = new Point();
         point1.setX(1);
         point1.setY(2);
@@ -28,5 +29,13 @@ public class Main {
         point1.moveDown();
         point1.moveLeft();
         point1.moveRight();
+
+        //Task4 - Clock
+        Clock clock1 = new Clock();
+        clock1.setHour(23);
+        clock1.setMinute(59);
+        clock1.setSecond(59);
+        clock1.tick();
+        clock1.read();
     }
 }
